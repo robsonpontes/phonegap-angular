@@ -1,0 +1,21 @@
+
+<nav class="navbar navbar-dark">
+<a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li ng-class="{active: activetab == '/'}"><a onclick=" $('.navbar-toggler-icon').click();" class="nav-link" href="#/!">Home</a></li>
+            <li ng-class="{active: activetab == '/oferta'}"><a onclick=" $('.navbar-toggler-icon').click();" class="nav-link" href="#!oferta">Oferta</a></li>
+            <li ng-class="{active: activetab == '/contato'}"><a onclick=" $('.navbar-toggler-icon').click();" class="nav-link" href="#!contato">Contato</a></li>
+            <li ng-class="{active: activetab == '/delivery'}"><a onclick=" $('.navbar-toggler-icon').click();" class="nav-link" href="#!delivery">Delivery</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar Produto" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+    </div>
+</nav>
+<div class="row" style="margin-top: 50px"></div>
